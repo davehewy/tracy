@@ -1,0 +1,129 @@
+/* 
+
+
+*/
+
+@import url("assets/css/core.css");
+
+body,html{
+	background: #000;
+	color:#f1f1f1;
+	font: 16px/22px 'Helvetica',Arial, serif;
+}
+
+#page{
+	width: 960px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.column_left{
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+
+.column_right{
+	float: right;
+	width: 70%;
+}
+
+.column_left h1{
+	color:#f1f1f1;
+	font-size: 22px;
+	font-weight: normal;
+	margin: -10px 0 20px 0;
+	padding: 0;
+	line-height: 20px;
+}
+
+.welcome_matt{
+	background: url(assets/images/welcome_matt.png) no-repeat;
+	height: 59px;
+	width: 114px;
+	margin: 0px auto;
+}
+
+.front_door{
+	background: url(assets/images/front_door.png) no-repeat;
+	height:264px;
+	width:183px;
+	margin: 0px auto;
+}
+
+.wreath_wrapper{
+	margin-top: 25px;
+	width:100%;
+}
+
+.wreath_menu{
+	float: left;
+	width: 20%;
+}
+
+.wreath_menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.wreath_menu ul li{
+	font-size: 12px;
+	color:#ccc;
+	margin-bottom: 10px;
+}
+
+.wreath_menu ul li.colored{
+	color: #978979;
+}
+
+.wreath_menu ul li.heading{
+	margin-left: -20px;
+	color: #978979;
+	border:1px solid #978979;
+	font-size: 13px;
+	padding: 4px;
+	text-align: center;
+}
+
+.wreath_list{
+	float: right;
+	width: 75%;
+	padding-top: 32px;
+}
+
+.wreath_list img{
+	float: left;
+	margin-right: 20px;
+}
+
+.wreath_list img.end{
+	margin-right: 0 !important;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.nextrow{
+	padding-top: 62px;
+}
+
+a{
+	color: #8eb958;
+}
+
+a:hover{
+	color: #8eb958;
+}
+
+.to_block{
+	padding-top:10px;
+	display: block;
+}
+
+#footer{
+	margin-top: 20px;
+	font-size: 12px;
+	text-align: right;
+}
